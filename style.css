@@ -1,0 +1,89 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 10px;
+}
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color:rgb(213,199,188) ;
+}
+
+#banner{
+  text-align: center;
+  background-image: url(file:///C:/Users/filip/Desktop/DSC00161.png);
+  background-size: cover;
+  padding: 250px;
+  color: grey;
+  text-shadow: 3px 3px 5px black;
+
+}
+#banner h1 {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  bottom: -50px;
+  text-shadow: 7px 7px 7px black;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: lighter;
+  text-shadow: 7px 7px 7px black;
+  position: relative;
+  bottom: -50px;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: rgb(213,199,188);
+}
+
+#button{
+  color: grey;
+}
+
+#imj{
+  padding:20px;  
+  margin:50px;
+  text-align: center;
+
+}
+
+#form{
+  width:50px;
+  height:80px;
+}
